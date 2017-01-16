@@ -12,7 +12,7 @@
 		4D3455C6CD0A05EA0CEDA4001C5A5E14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		A99673463C2FFA1847DEF82F0B6B4C80 /* BalanceCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 784C8392B645ED44CE9565DA2E5B33EB /* BalanceCell-dummy.m */; };
 		AF150B3683B0FBF69EC32AFEB8F44FA9 /* Pods-BalanceCell_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4263EB2F1C8573174E97DBAC3F9928 /* Pods-BalanceCell_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2E1AEC91E2CBF1C003BCCF0 /* BalanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1AEC71E2CBF1C003BCCF0 /* BalanceCell.swift */; };
+		D2E1AECE1E2CC136003BCCF0 /* BalanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1AECD1E2CC136003BCCF0 /* BalanceCell.swift */; };
 		D81E0DBBA3837DE15427CD76E22053B6 /* BalanceCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3501FB170190323D34F8A02405529377 /* BalanceCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -45,8 +45,8 @@
 		B82BF34996BC407309804A3F4EE011C6 /* Pods-BalanceCell_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BalanceCell_Tests-resources.sh"; sourceTree = "<group>"; };
 		C698D8D5CC93E03B04BF65D0C0464033 /* Pods-BalanceCell_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BalanceCell_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D2E1AEC71E2CBF1C003BCCF0 /* BalanceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceCell.swift; sourceTree = "<group>"; };
 		D2E1AEC81E2CBF1C003BCCF0 /* BalanceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalanceCell.xib; sourceTree = "<group>"; };
+		D2E1AECD1E2CC136003BCCF0 /* BalanceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceCell.swift; sourceTree = "<group>"; };
 		F2B81C6C91E029BDE02BD8C7A59E8028 /* Pods-BalanceCell_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BalanceCell_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F78EB1804747931C3EB5E29F6559882A /* BalanceCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BalanceCell-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,18 +158,10 @@
 		D2E1AEC61E2CBF1C003BCCF0 /* BalanceCell */ = {
 			isa = PBXGroup;
 			children = (
-				D2E1AECA1E2CBF2D003BCCF0 /* View Controllers */,
+				D2E1AECC1E2CC136003BCCF0 /* Blah */,
 				D2E1AECB1E2CBF3B003BCCF0 /* Whatever */,
 			);
 			path = BalanceCell;
-			sourceTree = "<group>";
-		};
-		D2E1AECA1E2CBF2D003BCCF0 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				D2E1AEC71E2CBF1C003BCCF0 /* BalanceCell.swift */,
-			);
-			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		D2E1AECB1E2CBF3B003BCCF0 /* Whatever */ = {
@@ -178,6 +170,14 @@
 				D2E1AEC81E2CBF1C003BCCF0 /* BalanceCell.xib */,
 			);
 			name = Whatever;
+			sourceTree = "<group>";
+		};
+		D2E1AECC1E2CC136003BCCF0 /* Blah */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1AECD1E2CC136003BCCF0 /* BalanceCell.swift */,
+			);
+			path = Blah;
 			sourceTree = "<group>";
 		};
 		D9EDE49B1DC76BE255F17768F2808F9F /* Pods-BalanceCell_Tests */ = {
@@ -300,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E1AEC91E2CBF1C003BCCF0 /* BalanceCell.swift in Sources */,
+				D2E1AECE1E2CC136003BCCF0 /* BalanceCell.swift in Sources */,
 				A99673463C2FFA1847DEF82F0B6B4C80 /* BalanceCell-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
