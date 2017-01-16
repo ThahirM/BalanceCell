@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BalanceCell_Tests' do
+  pod 'BalanceCell', :path => '../'
+  
+  
+end
