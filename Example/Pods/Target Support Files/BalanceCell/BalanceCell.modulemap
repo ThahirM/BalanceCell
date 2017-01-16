@@ -1,0 +1,6 @@
+framework module BalanceCell {
+  umbrella header "BalanceCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

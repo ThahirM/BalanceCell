@@ -1,0 +1,16 @@
+PODS:
+  - BalanceCell (0.1.0)
+
+DEPENDENCIES:
+  - BalanceCell (from `../`)
+
+EXTERNAL SOURCES:
+  BalanceCell:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BalanceCell: 81afd4c9311c860b536e262ef0d695a25df0573d
+
+PODFILE CHECKSUM: d8a547d0060a25ee40023ebe59f019620dfbbe25
+
+COCOAPODS: 1.1.1

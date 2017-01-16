@@ -1,0 +1,22 @@
+{
+  "name": "BalanceCell",
+  "version": "0.1.0",
+  "summary": "A short description of BalanceCell.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BalanceCell",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Thahir Maheen": "thahirmaheen@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BalanceCell.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BalanceCell/Classes/**/*"
+}
