@@ -20,7 +20,7 @@ class BalanceCell: XLFormBaseCell {
     override func update() {
         super.update()
         
-        // test comment
+        // test comment by rameez
         if let value = rowDescriptor.value as? Double {
             labelAmount?.text = "Balance Amount: AED\(value)"
         }
