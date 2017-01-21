@@ -41,6 +41,5 @@ TODO: Add long description of the pod here.
   s.dependency 'XLForm', '~> 3.3'
   s.dependency 'JVFloatLabeledTextField', '1.0.2'
   s.dependency 'AXRatingView', '1.0.3'
-  s.dependency 'RaptureXML', '~> 1.0'
 
 end
