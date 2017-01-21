@@ -46,7 +46,7 @@
 		C698D8D5CC93E03B04BF65D0C0464033 /* Pods-BalanceCell_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BalanceCell_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2E1AEC81E2CBF1C003BCCF0 /* BalanceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalanceCell.xib; sourceTree = "<group>"; };
-		D2E1AECD1E2CC136003BCCF0 /* BalanceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceCell.swift; sourceTree = "<group>"; };
+		D2E1AECD1E2CC136003BCCF0 /* BalanceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalanceCell.swift; path = Blah/BalanceCell.swift; sourceTree = "<group>"; };
 		F2B81C6C91E029BDE02BD8C7A59E8028 /* Pods-BalanceCell_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BalanceCell_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F78EB1804747931C3EB5E29F6559882A /* BalanceCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BalanceCell-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,26 +158,10 @@
 		D2E1AEC61E2CBF1C003BCCF0 /* BalanceCell */ = {
 			isa = PBXGroup;
 			children = (
-				D2E1AECC1E2CC136003BCCF0 /* Blah */,
-				D2E1AECB1E2CBF3B003BCCF0 /* Whatever */,
-			);
-			path = BalanceCell;
-			sourceTree = "<group>";
-		};
-		D2E1AECB1E2CBF3B003BCCF0 /* Whatever */ = {
-			isa = PBXGroup;
-			children = (
+				D2E1AECD1E2CC136003BCCF0 /* BalanceCell.swift */,
 				D2E1AEC81E2CBF1C003BCCF0 /* BalanceCell.xib */,
 			);
-			name = Whatever;
-			sourceTree = "<group>";
-		};
-		D2E1AECC1E2CC136003BCCF0 /* Blah */ = {
-			isa = PBXGroup;
-			children = (
-				D2E1AECD1E2CC136003BCCF0 /* BalanceCell.swift */,
-			);
-			path = Blah;
+			path = BalanceCell;
 			sourceTree = "<group>";
 		};
 		D9EDE49B1DC76BE255F17768F2808F9F /* Pods-BalanceCell_Tests */ = {
